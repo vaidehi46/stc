@@ -16,8 +16,8 @@ function setGame() {
         tile.addEventListener("click", selectTile);
         document.getElementById("board").appendChild(tile);
     }
-    setInterval(setCake, 1000); // 1000 miliseconds = 1 second, every 1 second call setCake
-    setInterval(setHammer, 1000); // 1000 miliseconds = 1 seconds, every 1 second call setHammer
+    setInterval(setCake, 500); // 500 miliseconds = 1 second, every 0.5 second call setCake
+    setInterval(setHammer, 500); // 500 miliseconds = 1 seconds, every 0.5 second call setHammer
 }
 
 function getRandomTile() {
